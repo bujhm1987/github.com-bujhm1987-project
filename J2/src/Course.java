@@ -1,7 +1,10 @@
 public class Course {
     private String name;
-    public static void doIt(String[] args)
-    {// здесь метод который будет просить команду пройти всю полосу, как это в коде отразить я не знаю
+    private int dist;
+    private int jump;
+    public int doIt(int a)
+    {//передаем дистанцию, которую может пробежать участник
+        if (a > 10)  {return  1;} else {return 0;}
          };
     public Course (String name){
         this.name=name;

@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        part[] parts = new part[] {new part("Иванов"),new part("Петров"),new part("Сидоров"),new part("Тихонов")};
-        Cource[] cources = new part[] {new part("Препятствие 1"),new part("Препятствие 2")};
-        Course c = new Course(cources); // Создаем полосу препятствий
-        Team team = new Team(parts); // Создаем команду
+
+        Cource[] cources = new Cource[] {new Cource("Препятствие 1",8,3),new Cource("Препятствие 2",10,4)};
         //help, что ему не нравится в передаваемом массиве? Гугл уверен в моей правоте!
 
         c.doIt(team); // Просим команду пройти полосу
